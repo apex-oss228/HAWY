@@ -1,0 +1,131 @@
+/* Страница профиля */
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.profile-avatar {
+    margin-bottom: 12px;
+}
+
+.profile-username {
+    color: #e26db3;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.profile-orders-title {
+    color: #e26db3;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 18px;
+    align-self: flex-start;
+    margin-left: 8vw;
+}
+
+.profile-order-card {
+    background: #f5f5f5;
+    border-radius: 40px;
+    padding: 28px 36px 24px 36px;
+    width: 80vw;
+    max-width: 90%;
+    min-width: 320px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+}
+
+.profile-order-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.profile-order-date {
+    color: #111;
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+
+.profile-order-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.profile-order-price {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.profile-order-link {
+    color: #111;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: text-decoration 0.2s;
+}
+
+.profile-order-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .profile-order-card {
+        padding: 18px 10px 18px 18px;
+        min-width: unset;
+        width: 96vw;
+    }
+    .profile-orders-title {
+        margin-left: 4vw;
+    }
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f7b6d2;
+    padding: 0 24px;
+    height: 56px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 16px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.profile-icon {
+    background: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
